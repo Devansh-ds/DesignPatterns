@@ -1,0 +1,23 @@
+------------------------------SOLID PRINCIPLES------------------------------
+
+1) Single Responsibility Principle - Here each class should have one Responsibility and
+   they should not be do multiple things. So seperation of tasks to different classes
+   is necessary.
+
+2) Open Closed Principle - It means code should be open for exentsion but closed for the
+   modification. So one must use interfaces etc. so that any new functionality can just
+   implement it instead of modifying already existing code.
+
+3) Liksov Substitution Principle - Whenever we extend a class and use some functionality
+   which expects base class, we can pass the subclass but sometimes it will cause bug.
+   So to best use it one must create Factory pattern so that subclass does not change 
+   the behaviour of some functionality method.
+
+4) Interface Segregation Principle - If there is an interface with multiple methods, 
+   sometimes a class requires only few of the methods and implementing all is pointless.
+   Instead we should create another interface with only some part of original interface.
+
+5) Dependency Inversion Principle  - High level module should not depend on low level
+   module. Instean they should depend on abstraction (interface). If small change made
+   in low level it will cause problems on high level module whereas if dependent on the
+   interface one can ensure that it will give the desired result back.

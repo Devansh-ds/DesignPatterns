@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "DIP",
+      "request": "launch",
+      "mainClass": "DIP",
+      "projectName": "Course_9c8ac05d"
+    },
+    {
+      "type": "java",
+      "name": "Launch with Arguments Prompt",
+      "request": "launch",
+      "mainClass": "",
+      "args": "${command:SpecifyProgramArgs}"
+    }
+  ]
+}
