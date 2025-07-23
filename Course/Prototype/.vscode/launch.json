@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CopyConstructor",
+      "request": "launch",
+      "mainClass": "CopyConstructor",
+      "projectName": "Prototype_c26cb9d0"
+    },
+    {
+      "type": "java",
+      "name": "Prototype",
+      "request": "launch",
+      "mainClass": "Prototype",
+      "projectName": "Prototype_c26cb9d0"
+    },
+    {
+      "type": "java",
+      "name": "Launch with Arguments Prompt",
+      "request": "launch",
+      "mainClass": "",
+      "args": "${command:SpecifyProgramArgs}"
+    }
+  ]
+}

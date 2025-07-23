@@ -2,6 +2,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Prototype",
+      "request": "launch",
+      "mainClass": "Prototype",
+      "projectName": "Course_9c8ac05d"
+    },
+    {
+      "type": "java",
+      "name": "Factory",
+      "request": "launch",
+      "mainClass": "Factory",
+      "projectName": "Course_9c8ac05d"
+    },
+    {
+      "type": "java",
+      "name": "FlacetBuilder",
+      "request": "launch",
+      "mainClass": "Builder.FlacetBuilder",
+      "projectName": "Course_9c8ac05d"
+    },
+    {
+      "type": "java",
+      "name": "FacetBuilder",
+      "request": "launch",
+      "mainClass": "Builder.FacetBuilder",
+      "projectName": "Course_9c8ac05d"
+    },
+    {
+      "type": "java",
+      "name": "BuilderP",
+      "request": "launch",
+      "mainClass": "Builder.BuilderP",
+      "projectName": "Course_9c8ac05d"
+    },
+    {
+      "type": "java",
       "name": "DIP",
       "request": "launch",
       "mainClass": "DIP",

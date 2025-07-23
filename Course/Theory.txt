@@ -21,3 +21,35 @@
    module. Instean they should depend on abstraction (interface). If small change made
    in low level it will cause problems on high level module whereas if dependent on the
    interface one can ensure that it will give the desired result back.
+
+
+------------------------------BUILDER PATTERN------------------------------
+
+1) Whenever we have multiple fields, do not create multiple constructor as it 
+   causes confusion. Instead use builder by returning the a builder class so that
+   other methods can be invoked in chain.
+2) Chaining builder is good but it creates problem in inheritance as BaseBuilder method
+   return BaseBuilder so one cannot invoke method of ChildBuilder
+3) Use Generics like PersonBuilder<SELF extends PersonBuilder<SELF>> and return like the
+   method  protected SELF self() {
+        return (SELF) this;
+   } Now the child class can override the self method and return its own class like 
+   EmployeeBuilder (EmployeeBuilder extends PersonBuilder<EmployeeBuilder>)
+4) Flacet Builder - In case of multiple fields we can divide builder into sub builders 
+   as an inner class.
+
+
+------------------------------FACTORY PATTERN------------------------------
+
+1) Sometimes creating multiple constructor is not feasible so instead create static 
+   classes which can take same arguments with different meaningfull name and can
+   be called directly.
+   
+
+------------------------------PROTOTYPE PATTERN------------------------------
+
+1) Basically a copy constructor stuff. We can send object in constructor which will
+   help in making a deep copy.
+2) We can also override clone() method of object class but class must implement marker
+   interface called Cloneable
+3) Serialization library provides direct and easy method but need to import it.
