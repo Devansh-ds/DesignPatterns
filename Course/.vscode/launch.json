@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Singleton",
+      "request": "launch",
+      "mainClass": "Singleton.Singleton",
+      "projectName": "Course_9c8ac05d"
+    },
+    {
+      "type": "java",
       "name": "Prototype",
       "request": "launch",
       "mainClass": "Prototype",

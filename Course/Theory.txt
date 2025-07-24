@@ -53,3 +53,16 @@
 2) We can also override clone() method of object class but class must implement marker
    interface called Cloneable
 3) Serialization library provides direct and easy method but need to import it.
+   
+
+------------------------------SINGLETON PATTERN------------------------------
+
+1) Only one instance available to use by making constructor private.
+2) It can be broken by using Serialization-Deserialization as it creates new object 
+   even though constructor was private. To overcome this edge case use: 
+   protected Object readResolve() {
+      return INSTANCE;
+   }
+   So after deserialization, Java checks if a method called readResolve() exists. 
+   If it does, Java replaces the newly created object with the one returned from 
+   readResolve().
