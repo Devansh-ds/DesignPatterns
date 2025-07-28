@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "DynamicDecorator",
+      "request": "launch",
+      "mainClass": "Decorator.DynamicDecorator",
+      "projectName": "StructuralPattern_43a9c6a1"
+    },
+    {
+      "type": "java",
+      "name": "StringDecorator",
+      "request": "launch",
+      "mainClass": "Decorator.StringDecorator",
+      "projectName": "StructuralPattern_43a9c6a1"
+    },
+    {
+      "type": "java",
+      "name": "NeuralNetwork",
+      "request": "launch",
+      "mainClass": "Composite.NeuralNetwork",
+      "projectName": "StructuralPattern_43a9c6a1"
+    },
+    {
+      "type": "java",
+      "name": "Composite",
+      "request": "launch",
+      "mainClass": "Composite.Composite",
+      "projectName": "StructuralPattern_43a9c6a1"
+    },
+    {
+      "type": "java",
+      "name": "BridgeP",
+      "request": "launch",
+      "mainClass": "BridgeP",
+      "projectName": "StructuralPattern_43a9c6a1"
+    },
+    {
+      "type": "java",
+      "name": "Launch with Arguments Prompt",
+      "request": "launch",
+      "mainClass": "",
+      "args": "${command:SpecifyProgramArgs}"
+    }
+  ]
+}
