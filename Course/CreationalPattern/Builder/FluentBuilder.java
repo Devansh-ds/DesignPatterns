@@ -1,4 +1,4 @@
-package Builder;
+package CreationalPattern.Builder;
 
 public class FluentBuilder {
     public static void main(String[] args) {

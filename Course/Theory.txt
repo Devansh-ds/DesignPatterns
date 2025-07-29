@@ -22,6 +22,13 @@
    in low level it will cause problems on high level module whereas if dependent on the
    interface one can ensure that it will give the desired result back.
 
+########################################################################################
+#                                                                                      #
+#                                                                                      #
+#                                  CREATIONAL PATTERN                                  #
+#                                                                                      #
+#                                                                                      #
+########################################################################################
 
 ------------------------------BUILDER PATTERN------------------------------
 
@@ -66,3 +73,66 @@
    So after deserialization, Java checks if a method called readResolve() exists. 
    If it does, Java replaces the newly created object with the one returned from 
    readResolve().
+
+########################################################################################
+#                                                                                      #
+#                                                                                      #
+#                                  STRUCTURAL PATTERN                                  #
+#                                                                                      #
+#                                                                                      #
+########################################################################################
+
+   
+------------------------------Adapter PATTERN------------------------------
+
+1) Adapter pattern acts as a bridge between two non-compatible interfaces. It implements
+   the interface and passes non compatible interface in the constructor to connect
+   both the interfaces
+
+
+------------------------------BRIDGE PATTERN------------------------------
+
+1) It is used when there is a cartesian problem for example 2 classes interdependent on
+   3 classes causing one to make 2*3 = 6 classes.
+2) To overcome this we can create common interfaces and connect both sets. So that any
+   class implementing the interface automatically have same structure and methods.
+
+
+------------------------------COMPOSITE PATTERN------------------------------
+
+1) Sometimes one object depends/uses other object or whole list of objects depend/uses
+   other objects via inheritance/compositon.
+2) We can use Iterable<T> interface as it allows single element object act as a 
+   collection by returning a single-element collection containing only this.
+
+
+------------------------------DECORATOR PATTERN------------------------------
+
+1) Sometimes for adding new functionality we can create a new class/decorator which
+   takes old object into its constructor and perform additional work
+2) If we also want to pass decorator inside a decorator we can pass the common
+   interface in constructor instead. So original object should follow that interace
+   too.
+
+
+------------------------------FLYWEIGHT PATTERN------------------------------
+
+1) Whenever we have repeated data we can store it once and use pointer to it for repeated
+   requests.
+2) For example name can be same so we can store them in cache area and then use pointer to
+   it so no further memory is wasted.
+
+
+------------------------------PROXY PATTERN------------------------------
+
+1) A proxy is just class with extended underlying operations like caching, logging etc.
+2) We can create proxy by inheritance or can use composition. 
+3) See example DynamicProxy.java (-------------Imp-------------);
+
+########################################################################################
+#                                                                                      #
+#                                                                                      #
+#                                 BEHAVIOURAL PATTERN                                  #
+#                                                                                      #
+#                                                                                      #
+########################################################################################

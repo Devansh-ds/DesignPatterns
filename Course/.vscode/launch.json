@@ -2,6 +2,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BridgeP",
+      "request": "launch",
+      "mainClass": "StructuralPattern.Bridge.BridgeP",
+      "projectName": "Course_9c8ac05d"
+    },
+    {
+      "type": "java",
+      "name": "Bridge",
+      "request": "launch",
+      "mainClass": "StructuralPattern.Bridge.Bridge",
+      "projectName": "Course_9c8ac05d"
+    },
+    {
+      "type": "java",
+      "name": "Adapter",
+      "request": "launch",
+      "mainClass": "Adapter",
+      "projectName": "Course_9c8ac05d"
+    },
+    {
+      "type": "java",
       "name": "Singleton",
       "request": "launch",
       "mainClass": "Singleton.Singleton",

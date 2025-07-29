@@ -1,4 +1,4 @@
-package Singleton;
+package CreationalPattern.Singleton;
 
 import java.io.File;
 import java.io.FileInputStream;

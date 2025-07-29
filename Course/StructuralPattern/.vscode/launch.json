@@ -2,6 +2,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MethodChain",
+      "request": "launch",
+      "mainClass": "COR.MethodChain",
+      "projectName": "StructuralPattern_43a9c6a1"
+    },
+    {
+      "type": "java",
+      "name": "DynamicProxy",
+      "request": "launch",
+      "mainClass": "DynamicProxy",
+      "projectName": "StructuralPattern_43a9c6a1"
+    },
+    {
+      "type": "java",
+      "name": "ProtectionProxy",
+      "request": "launch",
+      "mainClass": "ProtectionProxy",
+      "projectName": "StructuralPattern_43a9c6a1"
+    },
+    {
+      "type": "java",
+      "name": "RepeatedUserNames",
+      "request": "launch",
+      "mainClass": "RepeatedUserNames",
+      "projectName": "StructuralPattern_43a9c6a1"
+    },
+    {
+      "type": "java",
       "name": "DynamicDecorator",
       "request": "launch",
       "mainClass": "Decorator.DynamicDecorator",

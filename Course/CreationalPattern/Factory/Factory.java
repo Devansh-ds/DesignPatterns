@@ -1,3 +1,4 @@
+package CreationalPattern.Factory;
 public class Factory {
     public static void main(String[] args) {
         Point p1 = Point.PointFactory.newCartesianPoint(3, 5);

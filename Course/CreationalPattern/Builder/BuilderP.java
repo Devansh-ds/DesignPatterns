@@ -1,4 +1,4 @@
-package Builder;
+package CreationalPattern.Builder;
 
 import java.util.ArrayList;
 import java.util.Collections;
