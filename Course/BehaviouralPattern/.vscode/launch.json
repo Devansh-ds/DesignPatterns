@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MementoPatternn",
+      "request": "launch",
+      "mainClass": "Memento.MementoPatternn",
+      "projectName": "BehaviouralPattern_3c4e3bda"
+    },
+    {
+      "type": "java",
+      "name": "MediatorPattern",
+      "request": "launch",
+      "mainClass": "MediatorPattern",
+      "projectName": "BehaviouralPattern_3c4e3bda"
+    },
+    {
+      "type": "java",
+      "name": "Interpreter",
+      "request": "launch",
+      "mainClass": "Interpreter.Interpreter",
+      "projectName": "BehaviouralPattern_3c4e3bda"
+    },
+    {
+      "type": "java",
+      "name": "LexingInterpreter",
+      "request": "launch",
+      "mainClass": "Interpreter.LexingInterpreter",
+      "projectName": "BehaviouralPattern_3c4e3bda"
+    },
+    {
+      "type": "java",
+      "name": "CommandPattern",
+      "request": "launch",
+      "mainClass": "Command.CommandPattern",
+      "projectName": "BehaviouralPattern_3c4e3bda"
+    },
+    {
+      "type": "java",
+      "name": "Launch with Arguments Prompt",
+      "request": "launch",
+      "mainClass": "",
+      "args": "${command:SpecifyProgramArgs}"
+    }
+  ]
+}
