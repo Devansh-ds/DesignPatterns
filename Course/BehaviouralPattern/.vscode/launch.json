@@ -2,6 +2,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StateClassic",
+      "request": "launch",
+      "mainClass": "State.StateClassic",
+      "projectName": "BehaviouralPattern_3c4e3bda"
+    },
+    {
+      "type": "java",
+      "name": "ObsAndAble",
+      "request": "launch",
+      "mainClass": "Observer.ObsAndAble",
+      "projectName": "BehaviouralPattern_3c4e3bda"
+    },
+    {
+      "type": "java",
+      "name": "NullP",
+      "request": "launch",
+      "mainClass": "Null.NullP",
+      "projectName": "BehaviouralPattern_3c4e3bda"
+    },
+    {
+      "type": "java",
       "name": "MementoPatternn",
       "request": "launch",
       "mainClass": "Memento.MementoPatternn",

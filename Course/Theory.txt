@@ -136,3 +136,36 @@
 #                                                                                      #
 #                                                                                      #
 ########################################################################################
+
+
+------------------------------COMMAND PATTERN------------------------------
+
+1) We can store all the operations in a seperate object. By creating an command interface
+   which has execute() method wiht perform certain action. 
+2) It is useful in undo/redo operations and when decoupling of object with instruction
+   is required.
+
+
+------------------------------MEDIATOR PATTERN------------------------------
+
+1) If there is alot of talk between classes we can create a mediator which connects all
+   the components instead of letting them dependent on each other directly. It makes It
+   easier to send messages to all.
+2) Some use cases are Event broker where multiple components subscribe to something to 
+   get messages and other use case is chat room etc.
+
+
+------------------------------MEMENTO PATTERN------------------------------
+
+1) Mementos are used to roll back states. It is simply a token class with no setters or 
+   we can say read only class where stores states.
+2) It can be used to restore previous state by passing Memento into desired class as we
+   say it act as undo/redo.
+
+
+------------------------------OBSERVER PATTERN------------------------------
+
+1) It act as a class which is like an Event where other objects can subscribe to it and
+   notify using the publish/fire method which will be givent to all other subscribed
+   objects of that Event.
+2) It can be divided into 2 parts. Observer and Observable. Ex: Chat Room

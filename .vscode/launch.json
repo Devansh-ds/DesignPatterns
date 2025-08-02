@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "DIP",
+      "request": "launch",
+      "mainClass": "DIP",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "LiksovSubstitutionPrinciple",
+      "request": "launch",
+      "mainClass": "LiksovSubstitutionPrinciple",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "OpenClosedPrinciple",
+      "request": "launch",
+      "mainClass": "OpenClosedPrinciple",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "SingleResponsibilityPrinciple",
+      "request": "launch",
+      "mainClass": "SingleResponsibilityPrinciple",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch with Arguments Prompt",
+      "request": "launch",
+      "mainClass": "",
+      "args": "${command:SpecifyProgramArgs}"
+    }
+  ]
+}
